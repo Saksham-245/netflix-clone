@@ -16,7 +16,7 @@ export default async function Home() {
 	const isMobile = isMobileUserAgent(userAgent);
 
 	return (
-		<div className='flex flex-col w-full min-h-screen'>
+		<div className='flex flex-col w-full min-h-screen bg-black'>
 			<Navbar />
 			{isMobile && (
 				<div className='flex items-center justify-center h-[90vh] text-center px-4'>
