@@ -108,7 +108,7 @@ const Page = ({ params }) => {
 					<div className='grid gap-2'>
 						<h2 className='text-2xl font-bold'>Production Houses</h2>
 						<div className='grid gap-2 text-sm'>
-							{/* {detail?.production_companies.map((item) => (
+							{detail?.production_companies.map((item) => (
 								<div className='flex items-center gap-2' key={item?.id}>
 									<Image
 										src={`https://image.tmdb.org/t/p/original${item?.logo_path}`}
@@ -122,7 +122,7 @@ const Page = ({ params }) => {
 										<p>{item?.origin_country}</p>
 									</div>
 								</div>
-							))} */}
+							))}
 						</div>
 					</div>
 				</div>
